@@ -1,6 +1,6 @@
 package autos.v3;
 
-public interface AutoUsado {
+public interface AutoEnVenta {
 	
 	public String toString();
 	public String kilometrosRecorridos();

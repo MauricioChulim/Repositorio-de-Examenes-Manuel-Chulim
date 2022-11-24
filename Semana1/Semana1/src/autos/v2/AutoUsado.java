@@ -1,7 +1,5 @@
 package autos.v2;
 
-import autos.v4.AutoEnVenta;
-
 public abstract class AutoUsado {
 	
 	private double precio;
@@ -174,7 +172,7 @@ public abstract class AutoUsado {
 
 	@Override
 	public String toString() {
-		return "Caracteristicas de PoloComfort [Precio=" + precio + ", Marca=" + marca + ", Tipo de vehiculo=" + tipovehiculo
+		return "Caracteristicas de "+ this.getClass().getSimpleName() + " [Precio=" + precio + ", Marca=" + marca + ", Tipo de vehiculo=" + tipovehiculo
 				+ ", Numero de cilindros=" + numerocilindros + ", Kilometraje=" + kilometraje + ", Frenos=" + frenos
 				+ ", Direccion=" + direccion + "]";
 	}

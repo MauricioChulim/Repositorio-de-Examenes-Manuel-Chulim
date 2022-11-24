@@ -1,6 +1,6 @@
 package autos.v3;
 
-public class Platina implements AutoUsado{
+public class Platina implements AutoEnVenta{
 
 
 	private double precio;
@@ -31,7 +31,7 @@ public class Platina implements AutoUsado{
 	}
 
 
-
+	@Override
 	public String kilometrosRecorridos() {
 		String uso; 
 		if (kilometraje > 750_000) {
@@ -55,7 +55,7 @@ public class Platina implements AutoUsado{
 		return uso;
 		
 	}
-	
+	@Override
 	public double potencia (double cilindrada) {
 		double pot;
 		pot = Math.round( ((0.08 * numerocilindros) * Math.pow(((cilindrada*1000)/numerocilindros),0.9) ));
@@ -63,7 +63,7 @@ public class Platina implements AutoUsado{
 	}
 
 
-
+	@Override
 	public String seguridadComfort(){
 		String segAndCom = "";
 		if (frenos == "abs" && direccion == "asistida") {
@@ -173,7 +173,7 @@ public class Platina implements AutoUsado{
 
 	@Override
 	public String toString() {
-		return "Caracteristicas de platina [Precio=" + precio + ", Marca=" + marca + ", Tipo de vehiculo=" + tipovehiculo
+		return "Caracteristicas de "+ this.getClass().getSimpleName() + " [Precio=" + precio + ", Marca=" + marca + ", Tipo de vehiculo=" + tipovehiculo
 				+ ", Numero de cilindros=" + numerocilindros + ", Kilometraje=" + kilometraje + ", Frenos=" + frenos
 				+ ", Direccion=" + direccion + "]";
 	}

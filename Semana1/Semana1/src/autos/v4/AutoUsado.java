@@ -172,7 +172,7 @@ public abstract class AutoUsado implements AutoEnVenta {
 
 	@Override
 	public String toString() {
-		return "Caracteristicas de PoloComfort [Precio=" + precio + ", Marca=" + marca + ", Tipo de vehiculo=" + tipovehiculo
+		return "Caracteristicas de "+ this.getClass().getSimpleName() + " [Precio=" + precio + ", Marca=" + marca + ", Tipo de vehiculo=" + tipovehiculo
 				+ ", Numero de cilindros=" + numerocilindros + ", Kilometraje=" + kilometraje + ", Frenos=" + frenos
 				+ ", Direccion=" + direccion + "]";
 	}

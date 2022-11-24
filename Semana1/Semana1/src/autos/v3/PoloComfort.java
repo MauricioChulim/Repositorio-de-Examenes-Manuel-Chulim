@@ -1,6 +1,6 @@
 package autos.v3;
 
-public class PoloComfort implements AutoUsado{
+public class PoloComfort implements AutoEnVenta{
 
 
 	private double precio;
@@ -31,7 +31,7 @@ public class PoloComfort implements AutoUsado{
 	}
 
 
-
+	@Override
 	public String kilometrosRecorridos() {
 		String uso; 
 		if (kilometraje > 750_000) {
@@ -56,6 +56,7 @@ public class PoloComfort implements AutoUsado{
 		
 	}
 	
+	@Override
 	public double potencia (double cilindrada) {
 		double pot;
 		pot = Math.round( ((0.08 * numerocilindros) * Math.pow(((cilindrada*1000)/numerocilindros),0.9) ));
@@ -63,7 +64,7 @@ public class PoloComfort implements AutoUsado{
 	}
 
 
-
+	@Override
 	public String seguridadComfort(){
 		String segAndCom = "";
 		if (frenos == "abs" && direccion == "asistida") {
