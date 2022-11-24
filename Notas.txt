@@ -1,0 +1,10 @@
+En el presente ropositorio se podrán encontrar los proyectos y exmanes realizados durante la "Academia Java".
+
+En la semana 1, se encuentrán los examenes relacionados con el uso de polimorfismo usando clases abstractas
+y el uso de polimorfismo usando interfaces.
+La versión v2 del codigo emplea con el concepto de polimorfismo usando unicamente la clase abstracta, la 
+versión v3 del codigo emplea polimorfismo usando una interface, la versión v4 del codigo emplea el concepto
+de polimorfismo usando tanto la clase abstracta como una interface.
+Cabe mencionar que la versión v1 del codigo no emplea polimorfismo, tampoco emplea clases abstractas ni 
+interfaces, unicamente se uso para iniciar con el desarrollo del codigo y tener una perspectiva general de
+este.
