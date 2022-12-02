@@ -1,11 +1,11 @@
 En el archivo pdf de nombre "Examen semana 2 Manuel Mauricio Chulim Alamilla"
-se encuentrán las preguntas e instrucciones examen. Así mismo en las preguntas
-que mencionan que se debe escribir codigo, se presenta una breve explicación de
-donde se encuentra dicho codigo y donde encontrarlo.
+se encuentran las preguntas e instrucciones del examen. Así mismo en las preguntas
+que mencionan, que se debe escribir código, se presenta una breve explicación del
+código y en que paquetes (packages) encontrarlos.
 
 Todos los paquetes (packages) que son mencionados en el pdf se encuentran en la
 carpeta "ProyectosSemana2".
 
 Unicamente la pregunta 4 del examen, que solicita explicar los cuatro propositos
-del "final" con codigo no contiene explicación del funcionamiento del codigo, ya
-que dicha explicación se encuentra dentro del codigo en forma de comentarios.
+del "final" con código, no contiene explicación del funcionamiento del código, ya
+que dicha explicación se encuentra dentro del código en forma de comentarios.
