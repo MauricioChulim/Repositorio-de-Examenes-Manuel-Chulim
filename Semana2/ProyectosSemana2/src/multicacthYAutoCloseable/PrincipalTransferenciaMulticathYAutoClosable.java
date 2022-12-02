@@ -37,8 +37,8 @@ public class PrincipalTransferenciaMulticathYAutoClosable {
 		
 		
 		
-		try (Transferencia trans1 = new Transferencia(x,y,cuentaBloqueada,cuenta)) {
-			sobra = trans1.transferencia();
+		try (Transferencia trans1 = new Transferencia()) {
+			sobra = trans1.transferencia(x, y, cuentaBloqueada, cuenta);
 			System.out.println("Se realizo una tranferencia de: "+ y +" pesos le quedan " + sobra +" pesos en su cuenta.");
 		}
 
