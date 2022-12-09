@@ -1,0 +1,4 @@
+En el archivo pdf de nombre "Examen semana 3 Manuel Mauricio Chulim Alamilla"
+se encuentran las preguntas e instrucciones del examen. Así mismo en las preguntas
+que mencionan, que se debe escribir código, se presenta una breve explicación del
+código y en que paquetes (packages) encontrarlos.

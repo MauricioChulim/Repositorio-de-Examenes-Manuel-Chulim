@@ -1,0 +1,3 @@
+CREATE USER 'buscadordepilotos'@'localhost' IDENTIFIED BY 'buscadordepilotos';
+
+GRANT ALL PRIVILEGES ON * . * TO 'buscadordepilotos'@'localhost';
