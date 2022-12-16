@@ -19,7 +19,7 @@
 <center>
 	
 <div class = "figure">
-	<img src="images/logo.png"
+	<img src="${pageContext.request.contextPath}/resources/images/logo.png"
 	width = "250"
 	height = "100"
 	>

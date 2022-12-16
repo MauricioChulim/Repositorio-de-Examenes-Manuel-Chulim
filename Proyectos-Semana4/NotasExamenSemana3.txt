@@ -4,11 +4,11 @@ se encuentran las preguntas del examen.
 En cuanto a los proyectos, se encuentran en las siguientes carpetas:
 
 -El proyecto que expone un servicio rest se encuentra en la carpeta de nombre
-RestApi&AppMvc.
+"Proyecto1-servicio-rest-piloto".
 
 -El proyecto que usa un cliente que consume el servicio rest, se encuentra en
-la carpeta crm-web-app-rest-client-demo.
+la carpeta "Proyecto2-cliente-rest-piloto".
 
 -El proyecto que usa spring batch para generar una tabla en una base de datos
-de MySQL a partir de un archivo csv, se encuentra en la carpeta spring-batch.
+de MySQL a partir de un archivo csv, se encuentra en la carpeta "Proyecto3-spring-batch".
 
